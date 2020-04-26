@@ -83,7 +83,17 @@ header {
 }
 
 nav {
-  padding: 1rem 0;
+  background-color: black;
+  padding: 2rem 0;
+}
+
+section:nth-child(odd) {
+  background-color: var(--color-secondary--variant);
+  color: whitesmoke;
+}
+
+section:nth-child(even) {
+  background-color: var(--color-secondary);
 }
 
 footer {
