@@ -19,12 +19,11 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.15;
-  margin: 2.75rem 0 1.05rem;
 }
 
 h1 {
   font-size: 3.052em;
-  margin-top: 0;
+  margin: 0;
 }
 
 h2 {
@@ -73,4 +72,17 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+header {
+  background-color: var(--color-primary);
+  color: whitesmoke;
+  padding: 1rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.img--responsive {
+  height: auto;
+  max-width: 100%;
 }
