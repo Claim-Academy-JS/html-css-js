@@ -87,6 +87,13 @@ nav {
   padding: 1rem 0;
 }
 
+.button {
+  background-color: var(--color-secondary);
+  min-width: 4rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
 .flex {
   display: flex;
 }
