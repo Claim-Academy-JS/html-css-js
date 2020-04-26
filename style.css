@@ -43,6 +43,7 @@ p {
 
 ul {
   margin: 0;
+  padding: 0;
 }
 
 li {
@@ -80,6 +81,18 @@ header {
   padding: 1rem;
   text-align: center;
   width: 100vw;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-justify-content--space-around {
+  justify-content: space-around;
 }
 
 .img--responsive {
