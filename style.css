@@ -86,6 +86,15 @@ nav {
   padding: 1rem 0;
 }
 
+footer {
+  padding: 1rem;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
 .button {
   background-color: var(--color-secondary);
   min-width: 4rem;
