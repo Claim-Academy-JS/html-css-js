@@ -134,6 +134,14 @@ select {
   color: whitesmoke;
 }
 
+address li {
+  margin-right: 0;
+}
+
+address li:not(:last-child)::after {
+  content: "\2022";
+}
+
 .button {
   background-color: var(--color-secondary);
   min-width: 4rem;
