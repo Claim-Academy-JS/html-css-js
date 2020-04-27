@@ -105,6 +105,22 @@ footer li {
   margin-right: 0.5rem;
 }
 
+form {
+  background-color: var(--color-primary);
+  color: whitesmoke;
+  padding: 1rem 0.5rem;
+}
+
+label {
+  margin-right: 0.25rem;
+}
+
+input,
+textarea {
+  border: solid thin #333;
+  border-radius: 3px;
+}
+
 .button {
   background-color: var(--color-secondary);
   min-width: 4rem;
@@ -114,6 +130,10 @@ footer li {
 
 .flex {
   display: flex;
+}
+
+form > .flex {
+  margin: 1rem 0;
 }
 
 .flex-align-items--center {
@@ -126,6 +146,10 @@ footer li {
 
 .flex-justify-content--space-around {
   justify-content: space-around;
+}
+
+.flex-justify-content--space-between {
+  justify-content: space-between;
 }
 
 .img--responsive {

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me!</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="text-align--center">
+      <h1>Contact Me!</h1>
+    </header>
+    <nav>
+      <ul class="flex flex-justify-content--space-around">
+        <li><a href="../index.html" class="button">Home</a></li>
+        <li><a href="#" class="button">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form action="">
+        <div class="flex flex-justify-content--space-between">
+          <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" />
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" />
+          </div>
+        </div>
+
+        <div class="flex flex-justify-content--space-between">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="someone@example.com" />
+          </div>
+          <div>
+            <label for="fone">Phone</label>
+            <input type="tel" />
+          </div>
+        </div>
+
+        <div class="flex flex-flex-direction--column">
+          <label for="msg">Enter Your Message</label>
+          <textarea name="" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="button">Submit!</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
