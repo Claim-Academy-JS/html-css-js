@@ -121,6 +121,10 @@ textarea {
   border-radius: 3px;
 }
 
+select {
+  color: whitesmoke;
+}
+
 .button {
   background-color: var(--color-secondary);
   min-width: 4rem;
