@@ -149,6 +149,11 @@ address li:not(:last-child)::after {
   text-transform: uppercase;
 }
 
+.button:focus,
+.button:hover {
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
 }
