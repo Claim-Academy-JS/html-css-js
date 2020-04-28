@@ -154,6 +154,14 @@ address li:not(:last-child)::after {
   cursor: pointer;
 }
 
+.fab {
+  margin-right: 0.125rem;
+}
+
+.fa-id-card-alt {
+  margin-right: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
